@@ -10,3 +10,10 @@
 | Friday | start to Coding. |
 
 ### Week2
+| Day | Tasks |
+|:------------- |:-------------|
+| Monday |looking Figma tutorial |
+| Tuesday |  create design of my website|
+| Wednesday | start css and html |
+| Thursday | finish my page |
+| Friday | - |

@@ -5,40 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile page </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- pssible not need -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
-  <div class="header">
-    <a  class="logo">My future website</a>
-    <div class="header-right">
-      <a  href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      Ru.Ta
     </div>
-  </div> 
-
-
-
-  <div class container>
-    <div class="container">
-      <img src="images/avatar.jpeg" alt="" class="cont-img">
-      <h1>
-    Hello,im Tatsiana!</h1>
-    <h5>
-    Im currently study at "Hack Your Future"</h5>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ab quas vero saepe iste, dolorem praesentium, reiciendis aliquid illum nihil et assumenda recusandae, obcaecati voluptate fugiat optio nisi rerum! Dolor!
-    </p>
-    </div>
-
-  <div class="footer">
-    <ul>
-    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contacts">Contact</a></li>
       </ul>
     </div>
+  </header>
+  <!-- HEADER -->
+
+<!-- SECTION ABOUT -->
+<section class="about"id="about">
+<div class="about-container">
+ 
+  <div class="about-content">
+    <div class="about-txt-cont">
+      <h2 class="about-title">About me</h2>
+      <p class="about-txt"> Hi , im Tatsiana and im originally from Belarus. Im very interested in web development and design, i like to learn new things and discover new people and cultures.</p>
+
+    </div>
+    <div class="photo-container">
+      <img src="images/Photo.svg" alt="">
+    </div>
   </div>
+</div>
+</section>
+
+ <!-- SKILLS -->
+<section class="skills"id="skills">
+  <div class="skills-container">
+    <h2 class="about-title">Skills</h2>
+<div class="skills-content">
+<div class="pr-sc-container">
+  <h2 class="pr-sc-title">Programs skills</h2>
+<p class="sk-txt">
+  OOP in JAVA, SQL, MySQL, JDBC,
+  XML & XML APIs, Maven, JSP & Servlets,
+  SpringFramework: Core, SpringBoot, MVC, REST,
+  JPA / Hibernate, Git,
+  UML, HTML, CSS, JavaScript, NodeJs, 
+  DataBase, React
+</p>
+</div>
+  <div class="l-sc-container">
+    <h2 class="pr-sc-title"> Language skills</h2> 
+   <p class="sk-txt">
+    <span class="colored">  English</span> ........good <br>
+    <span class="colored">  Dutch</span>...........good  <br>
+    <span class="colored">  Russian</span> ........mother language  <br>
+  </p>
+  </div>
+</div>
+  </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact"id="contacts">
+      <div class="contact-container">
+        <h2 class="contact-logo">Contacts</h2>
+        <div class="contact-form">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+          
+    </div>
+    </section>
+
+
+
+
+
+ 
+
+
+
+
+  
   
 
 </body>
