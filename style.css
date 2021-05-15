@@ -18,6 +18,12 @@ h1 {
   max-width: none;
 }
 
+#submit {
+  font-family: "Work Sans", sans-serif;
+  line-height: 140%;
+  font-size: 14px;
+}
+
 p {
   color: white;
   text-align: left;
@@ -28,6 +34,16 @@ p {
   margin: 0px 0px 20px;
   font-weight: 300;
 }
+
+label,
+#fname, 
+#lname,
+#subject {
+  font-family: "Space Mono", monospace;
+  line-height: 160%;
+  font-size: 16px;
+}
+
 /* END general text attributes */
 
 /* BEGIN header  */
@@ -42,10 +58,8 @@ header {
 .logo {
   font-size: 40px;
   line-height: 140%;
-
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
-
   font-weight: bold;
   color: #028758;
 }
@@ -89,6 +103,7 @@ header {
   z-index: 1;
   flex: 0 0 auto;
 }
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -101,12 +116,14 @@ header {
   padding: 10px 0px;
   margin: 0px auto;
 }
+
 .about-content {
   display: flex;
   width: 80%;
   display: flex;
   margin: 50px 0px;
 }
+
 .about-txt-cont {
   display: flex;
   flex: 0 0 auto;
@@ -118,6 +135,7 @@ header {
   width: 50%;
   order: 1;
 }
+
 .about-title {
   font-size: 20px;
   line-height: 140%;
@@ -146,6 +164,7 @@ header {
   word-break: break-word;
   font-weight: 300;
 }
+
 .photo-container {
   align-items: center;
   display: flex;
@@ -156,15 +175,18 @@ header {
   padding: 0px 0px 0px 100px;
   -moz-box-align: stretch;
 }
+
 .photo-container img {
   display: flex;
   height: 300px;
   margin-top: 30px;
   margin-left: 20px;
 }
+
 .photo-container img {
   transition: 300ms;
 }
+
 .photo-container img:hover {
   transform: rotate(-6deg);
 }
@@ -203,6 +225,7 @@ header {
   padding: 10px 0px;
   margin: 0px auto;
 }
+
 .skills-container h2 {
   font-size: 20px;
   line-height: 100%;
@@ -215,12 +238,14 @@ header {
   text-align: center;
   max-width: none;
 }
+
 .skills-content {
   width: 80%;
   display: flex;
   -moz-box-pack: justify;
   justify-content: space-between;
 }
+
 .pr-sc-container {
   width: 45%;
   display: flex;
@@ -229,6 +254,7 @@ header {
   padding: 40px 50px;
   background: #ffffff;
 }
+
 .pr-sc-title {
   font-size: 20px;
   line-height: 140%;
@@ -240,6 +266,7 @@ header {
   text-align: center;
   max-width: none;
 }
+
 .sk-txt {
   color: rgb(45, 48, 55);
   text-align: left;
@@ -252,6 +279,7 @@ header {
   word-break: break-word;
   font-weight: 300;
 }
+
 .l-sc-container {
   width: 45%;
   display: flex;
@@ -282,6 +310,7 @@ header {
   z-index: 1;
   flex: 0 0 auto;
 }
+
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -294,6 +323,7 @@ header {
   padding: 10px 0px;
   margin: 0px auto;
 }
+
 input[type="text"],
 select,
 textarea {
@@ -337,6 +367,7 @@ input[type="submit"]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
 .contact-logo {
   /* text-align: center !important; */
   font-size: 20px;
@@ -350,6 +381,7 @@ input[type="submit"]:hover {
   text-align: center;
   max-width: none;
 }
+
 .contact-form {
   width: 80%;
   display: flex;
