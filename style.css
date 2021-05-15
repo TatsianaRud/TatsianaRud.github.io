@@ -18,6 +18,12 @@ h1 {
   max-width: none;
 }
 
+#submit {
+  font-family: "Work Sans", sans-serif;
+  line-height: 140%;
+  font-size: 14px;
+}
+
 p {
   color: white;
   text-align: left;
@@ -28,6 +34,16 @@ p {
   margin: 0px 0px 20px;
   font-weight: 300;
 }
+
+label,
+#fname, 
+#lname,
+#subject {
+  font-family: "Space Mono", monospace;
+  line-height: 160%;
+  font-size: 16px;
+}
+
 /* END general text attributes */
 
 /* BEGIN header  */
@@ -42,10 +58,8 @@ header {
 .logo {
   font-size: 40px;
   line-height: 140%;
-
   text-transform: uppercase;
   font-family: "Work Sans", sans-serif;
-
   font-weight: bold;
   color: #028758;
 }
